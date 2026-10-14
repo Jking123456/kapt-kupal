@@ -4,7 +4,7 @@ const crypto = require('crypto');
 const BASE_URL = "https://licensdash-nock67rs.manus.space/api/license/validate";
 const API_KEY = "NAXX-E87B6-BC5C6-B7F65-DE496-9AEE5";
 const PRODUCT = "luajava";
-const REQUEST_COUNT = 100; // Number of parallel requests per execution
+const REQUEST_COUNT = 1000; // Number of parallel requests per execution
 
 function generateRandomDeviceId() {
     return crypto.randomBytes(16).toString('hex');
