@@ -1,0 +1,10 @@
+{
+  "name": "license-flood-cron",
+  "version": "1.0.0",
+  "description": "Vercel cron job for automated requests",
+  "main": "api/execute.js",
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.x"
+  }
+}
